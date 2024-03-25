@@ -1,0 +1,57 @@
+{
+  "empregador": {
+    "nome": "Empresa ABC",
+    "CNPJ": "00.000.000/0001-00",
+    "endereco": "Rua ABC, 123 - Cidade XYZ"
+  },
+  "funcionarios": [
+    {
+      "nome": "João Silva",
+      "CPF": "123.456.789-00",
+      "cargo": "Desenvolvedor",
+      "salario": 5000
+    },
+    {
+      "nome": "Maria Santos",
+      "CPF": "987.654.321-00",
+      "cargo": "Analista de RH",
+      "salario": 4500
+    },
+    {
+      "nome": "Pedro Oliveira",
+      "CPF": "111.222.333-44",
+      "cargo": "Engenheiro Civil",
+      "salario": 6000
+    },
+    {
+      "nome": "Ana Pereira",
+      "CPF": "555.666.777-88",
+      "cargo": "Designer Gráfico",
+      "salario": 4800
+    },
+    {
+      "nome": "Carlos Souza",
+      "CPF": "999.888.777-66",
+      "cargo": "Analista de Marketing",
+      "salario": 5200
+    },
+    {
+      "nome": "Juliana Lima",
+      "CPF": "444.333.222-11",
+      "cargo": "Assistente Administrativo",
+      "salario": 4200
+    },
+    {
+      "nome": "Fernando Santos",
+      "CPF": "777.888.999-00",
+      "cargo": "Gerente de Projetos",
+      "salario": 6500
+    },
+    {
+      "nome": "Roberta Oliveira",
+      "CPF": "222.333.444-55",
+      "cargo": "Contadora",
+      "salario": 5500
+    }
+  ]
+}

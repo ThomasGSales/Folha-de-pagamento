@@ -1,83 +1,18 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>folha de pagamento</title>
+    <title>Acesso ao Sistema</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    
-    <h1>PayPer</h1>
-    <form>
-        <div id="selecionar">
-            <label for="funcionarios">Selecione o funcionário:</label><br>
-            <select name="funcionario[]" id="funcionarios">
-                <option value="item1">Funcionário 1</option>
-                <option value="item2">Funcionário 2</option>
-                <option value="item3">Funcionário 3</option>
-                <option value="item4">Funcionário 4</option>
-                <option value="item5">Funcionário 5</option>
-            </select>
-        </div><br>
-        <div id="checkbox">
-            <input type="checkbox" id="fgts" name="fgts" value="fgts">
-            <label for="fgts">FGTS</label><br>
-
-            <input type="checkbox" id="va" name="va" value="va">
-            <label for="va">VA</label><br>
-
-            <input type="checkbox" id="vt" name="vt" value="vt">
-            <label for="vt">VT</label><br>
-
-            <input type="checkbox" id="irrf" name="irrf" value="irrf">
-            <label for="irrf">IRRF</label><br>
-
-            <input type="checkbox" id="diaria_viagem" name="diaria_viagem" value="diaria/viagem">
-            <label for="diaria_viagem">Diária/Viagem</label><br>
-
-            <input type="checkbox" id="adicional_tempo_servico" name="adicional_tempo_servico" value="adicional por tempo de serviço">
-            <label for="adicional_tempo_servico">Adicional por Tempo de Serviço</label><br>
-
-            <input type="checkbox" id="hora_extra_checkbox" name="hora_extra" value="hora extra" onchange="mostrarOcultarInput('hora_extra_checkbox', 'inputHoraExtra')">
-            <label for="hora_extra_checkbox">Hora Extra</label>
-            <input type="number" id="inputHoraExtra" class="hidden" placeholder="Horas"><br>
-
-            <input type="checkbox" id="adiantamento_checkbox" name="adiantamento" value="adiantamento" onchange="mostrarOcultarInput('adiantamento_checkbox', 'inputAdiantamento')">
-            <label for="adiantamento_checkbox">Adiantamento</label>
-            <input type="number" id="inputAdiantamento" class="hidden" placeholder="Reais"><br>
-
-            <input type="checkbox" id="comissao_checkbox" name="comissao" value="comissão" onchange="mostrarOcultarInput('comissao_checkbox', 'inputComissao')">
-            <label for="comissao_checkbox">Comissão</label>
-            <input type="number" id="inputComissao" class="hidden" placeholder="Reais"><br>
-
-            <input type="checkbox" id="adicional_noturno" name="adicional_noturno" value="adicional noturno">
-            <label for="adicional_noturno">Adicional Noturno</label><br>
-
-            <input type="checkbox" id="insalubridade" name="insalubridade" value="insalubridade">
-            <label for="insalubridade">Insalubridade</label><br>
-
-            <input type="checkbox" id="periculosidade" name="periculosidade" value="periculosidade">
-            <label for="periculosidade">Periculosidade</label><br>
-
-            <input type="checkbox" id="salario_familia_checkbox" name="salario_familia" value="salario familia" onchange="mostrarOcultarInput('salario_familia_checkbox', 'inputSalarioFamilia')">
-            <label for="salario_familia_checkbox">Salário Família</label>
-            <input type="number" id="inputSalarioFamilia" class="hidden"><br>
-
-            <input type="checkbox" id="auxilio_baba" name="auxilio_baba" value="auxilio babá">
-            <label for="auxilio_baba">Auxílio Babá</label><br>
-
-            <input type="checkbox" id="dsr" name="dsr" value="dsr">
-            <label for="dsr">DSR</label><br>
-
-            <input type="checkbox" id="faltas_atrasos_checkbox" name="faltas_atrasos" value="faltas/atrasos" onchange="mostrarOcultarInput('faltas_atrasos_checkbox', 'inputFaltasAtrasos')">
-            <label for="faltas_atrasos_checkbox">Faltas/Atrasos</label>
-            <input type="number" id="inputFaltasAtrasos" class="hidden" placeholder="Horas"><br>
-        </div>
-        <button type="submit">Gerar</button>
-        <button>Sair</button>
-    </form>
+    <header>
+        <h1>Folha de Pagamento - Acesso ao Sistema</h1>
+    </header>
+    <main>
+        <a href="selecionar-funcionario.html" class="btn">Acessar o Sistema</a>
+    </main>
 </body>
+<script src="assets/script/script.js" defer></script>
 </html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecionar Descontos e Adicionais</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Selecionar Descontos e Adicionais</h1>
+    </header>
+    <main>
+        <form id="form-selecionar-descontos-adicionais">
+            <!-- Checkboxs e Inputs -->
+            <div id="checkboxs-inputs-container">
+                <!-- Descontos -->
+                <h3>Descontos:</h3>
+                <div class="form-group">
+                    <label><input type="checkbox" name="fgts" value="fgts"> FGTS</label>
+                    <label><input type="checkbox" name="va" value="va"> Vale Alimentação</label>
+                    <label><input type="checkbox" name="vt" value="vt"> Vale Transporte</label>
+                    <label><input type="checkbox" id="adicional-tempo-servico" name="adicional-tempo-servico" value="adicional-tempo-servico"> Adicional por Tempo de Serviço</label>
+                    <input type="text" id="adicional-tempo-servico-input" name="adicional-tempo-servico" placeholder="Horas" style="display: none;">
+                    <label><input type="checkbox" id="horas-extras" name="horas-extras" value="horas-extras"> Horas Extras</label>
+                    <input type="text" id="horas-extras-input" name="horas-extras" placeholder="Horas" style="display: none;">
+                    <label><input type="checkbox" id="adiantamento" name="adiantamento" value="adiantamento"> Adiantamento</label>
+                    <input type="text" id="adiantamento-input" name="adiantamento" placeholder="Reais" style="display: none;">       
+            </div>
+            <button type="submit" class="btn" id="btn-proximo">Próximo</button>
+        </form>
+    </main>
+</body>
+<script src="assets/script/selecionarDescontos.js" defer></script>
+</html>
